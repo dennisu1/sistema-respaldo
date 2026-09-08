@@ -1,0 +1,53 @@
+﻿{
+    "tool":  "Robocopy de Windows",
+    "created_at":  "2026-09-08T00:16:59.7228448Z",
+    "powershell":  "5.1.19041.7663",
+    "backup_exit_code":  1,
+    "empty_directory_restored":  true,
+    "results":  [
+                    {
+                        "mode":  "total",
+                        "files":  4,
+                        "sha256_match":  true,
+                        "robocopy_exit_code":  1,
+                        "expected":  {
+                                         "fotos/muestra.bin":  "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+                                         "documentos/tarea.txt":  "2a3c385db7f80a8d851c177ad6a4ec89946471b557e5616fb34cb1aa3b0e7cc4",
+                                         "documentos/notas.txt":  "d9c22567fa3b93bf462b859ce76cf76fa90f3b7e0078fdd18db34fb214a04824",
+                                         "proyectos/hola.py":  "5a0fb0e5a0d6afef0d51b1720b25bafb75724129c04436922e5c253ffa3b5006"
+                                     },
+                        "actual":  {
+                                       "fotos/muestra.bin":  "40aff2e9d2d8922e47afd4648e6967497158785fbd1da870e7110266bf944880",
+                                       "documentos/tarea.txt":  "2a3c385db7f80a8d851c177ad6a4ec89946471b557e5616fb34cb1aa3b0e7cc4",
+                                       "documentos/notas.txt":  "d9c22567fa3b93bf462b859ce76cf76fa90f3b7e0078fdd18db34fb214a04824",
+                                       "proyectos/hola.py":  "5a0fb0e5a0d6afef0d51b1720b25bafb75724129c04436922e5c253ffa3b5006"
+                                   }
+                    },
+                    {
+                        "mode":  "parcial",
+                        "files":  2,
+                        "sha256_match":  true,
+                        "robocopy_exit_code":  1,
+                        "expected":  {
+                                         "documentos/notas.txt":  "d9c22567fa3b93bf462b859ce76cf76fa90f3b7e0078fdd18db34fb214a04824",
+                                         "documentos/tarea.txt":  "2a3c385db7f80a8d851c177ad6a4ec89946471b557e5616fb34cb1aa3b0e7cc4"
+                                     },
+                        "actual":  {
+                                       "documentos/notas.txt":  "d9c22567fa3b93bf462b859ce76cf76fa90f3b7e0078fdd18db34fb214a04824",
+                                       "documentos/tarea.txt":  "2a3c385db7f80a8d851c177ad6a4ec89946471b557e5616fb34cb1aa3b0e7cc4"
+                                   }
+                    },
+                    {
+                        "mode":  "individual",
+                        "files":  1,
+                        "sha256_match":  true,
+                        "robocopy_exit_code":  1,
+                        "expected":  {
+                                         "documentos/tarea.txt":  "2a3c385db7f80a8d851c177ad6a4ec89946471b557e5616fb34cb1aa3b0e7cc4"
+                                     },
+                        "actual":  {
+                                       "documentos/tarea.txt":  "2a3c385db7f80a8d851c177ad6a4ec89946471b557e5616fb34cb1aa3b0e7cc4"
+                                   }
+                    }
+                ]
+}

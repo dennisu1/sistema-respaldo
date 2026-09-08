@@ -1,0 +1,58 @@
+{
+  "tool": "Programa propio Python",
+  "python": "3.12.14",
+  "platform": "Windows",
+  "created_at": "2026-09-07T18:25:19.309071-06:00",
+  "backup": "Backup_2026-09-07_182518_815267_42035db9",
+  "versions": 2,
+  "empty_directory_restored": true,
+  "results": [
+    {
+      "mode": "total",
+      "files": 6,
+      "sha256_match": true,
+      "expected": {
+        "documentos/niñez y educación.txt": "bd9d962048a024037a4e1bc3be817d7b9e58f70f5a65011d1e464fbc2d0e40fc",
+        "documentos/notas.txt": "fa6d02d93ad368e2b50baec054ef424772fa311bc6a83dc9c21f5f8654ef0954",
+        "documentos/tarea.txt": "e41554f8bb415cf348cfa04dfc81244fead902ac33cdf1d0f6cb46b3616d66f6",
+        "fotos/binario.bin": "c8f5d0341d54d951a71b136e6e2afcb14d11ed8489a7ae126a8fee0df6ecf193",
+        "fotos/descripcion.txt": "31a69c4402593b8d5028f542a921d02bb05b990015a07e24a659d68c6cf5b8ee",
+        "proyectos/hola.py": "3e31733d3cd3b25a197a117fc7cdcdb10c12271623a0a4ed330d95740214da84"
+      },
+      "actual": {
+        "documentos/niñez y educación.txt": "bd9d962048a024037a4e1bc3be817d7b9e58f70f5a65011d1e464fbc2d0e40fc",
+        "documentos/notas.txt": "fa6d02d93ad368e2b50baec054ef424772fa311bc6a83dc9c21f5f8654ef0954",
+        "documentos/tarea.txt": "e41554f8bb415cf348cfa04dfc81244fead902ac33cdf1d0f6cb46b3616d66f6",
+        "fotos/binario.bin": "c8f5d0341d54d951a71b136e6e2afcb14d11ed8489a7ae126a8fee0df6ecf193",
+        "fotos/descripcion.txt": "31a69c4402593b8d5028f542a921d02bb05b990015a07e24a659d68c6cf5b8ee",
+        "proyectos/hola.py": "3e31733d3cd3b25a197a117fc7cdcdb10c12271623a0a4ed330d95740214da84"
+      }
+    },
+    {
+      "mode": "parcial",
+      "files": 3,
+      "sha256_match": true,
+      "expected": {
+        "documentos/niñez y educación.txt": "bd9d962048a024037a4e1bc3be817d7b9e58f70f5a65011d1e464fbc2d0e40fc",
+        "documentos/notas.txt": "fa6d02d93ad368e2b50baec054ef424772fa311bc6a83dc9c21f5f8654ef0954",
+        "documentos/tarea.txt": "e41554f8bb415cf348cfa04dfc81244fead902ac33cdf1d0f6cb46b3616d66f6"
+      },
+      "actual": {
+        "documentos/niñez y educación.txt": "bd9d962048a024037a4e1bc3be817d7b9e58f70f5a65011d1e464fbc2d0e40fc",
+        "documentos/notas.txt": "fa6d02d93ad368e2b50baec054ef424772fa311bc6a83dc9c21f5f8654ef0954",
+        "documentos/tarea.txt": "e41554f8bb415cf348cfa04dfc81244fead902ac33cdf1d0f6cb46b3616d66f6"
+      }
+    },
+    {
+      "mode": "individual",
+      "files": 1,
+      "sha256_match": true,
+      "expected": {
+        "documentos/tarea.txt": "e41554f8bb415cf348cfa04dfc81244fead902ac33cdf1d0f6cb46b3616d66f6"
+      },
+      "actual": {
+        "documentos/tarea.txt": "e41554f8bb415cf348cfa04dfc81244fead902ac33cdf1d0f6cb46b3616d66f6"
+      }
+    }
+  ]
+}
