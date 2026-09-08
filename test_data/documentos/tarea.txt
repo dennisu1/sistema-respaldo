@@ -1,0 +1,3 @@
+Materia: Seguridad de la Información
+Práctica: Respaldo y Recuperación
+Este archivo permite demostrar la recuperación individual.

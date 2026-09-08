@@ -1,0 +1,2 @@
+La recuperación parcial debe restaurar todos los archivos de documentos.
+La integridad se comprueba comparando hashes SHA-256.
