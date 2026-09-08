@@ -1,0 +1,5 @@
+{
+  "source": "test_data",
+  "backup_root": "backups",
+  "log_file": "logs/operaciones.jsonl"
+}

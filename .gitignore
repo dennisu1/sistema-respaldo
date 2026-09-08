@@ -11,3 +11,12 @@ venv/
 
 # Configuración de VS Code
 .vscode/
+
+# Datos locales de la práctica; nunca publicar respaldos de usuarios
+demo_runs/
+recuperados/
+logs/
+config.json
+.incomplete-*/
+.restore-*/
+.pytest_cache/
